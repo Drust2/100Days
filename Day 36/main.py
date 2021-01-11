@@ -11,8 +11,8 @@ Day 36 - Stock news project
 
 STOCK = "GOOG"
 COMPANY_NAME = "Google"
-account_sid = "AC6f62ad65e2eef01583a34bdc958b87f1"
-auth_token = "06cbfa88b157a4ce877bc1c7b7bb53a0"
+account_sid = "ACCOUNT_SID"
+auth_token = "AUTH_TOKEN"
 
 ## STEP 1: Use https://www.alphavantage.co
 # When STOCK price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
