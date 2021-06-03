@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 57 - Jinja</title>
+<body>
+    {% for blog_post in posts: %}
+        {% if blog_post["id"] == blog_id: %}        
+            <h1>{{blog_post["title"]}}</h1>
+            <h2>{{blog_post["subtitle"]}}</h2>
+        {% endif %}
+    {% endfor %}
+</body>
+<footer>
+    <p>Copyright {{copy_year}}. Built by someone</p>
+</footer>
+</html>
+
+

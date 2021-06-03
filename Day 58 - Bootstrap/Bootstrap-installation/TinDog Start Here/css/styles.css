@@ -1,0 +1,154 @@
+body {
+		background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+p {
+		color: #8f8f8f
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+/* Nav Bar */
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat-light", sans-serif;
+}
+
+/* Download Buttons */
+.download-button {
+	margin: 5% 3% 8% 0;
+}
+/* Title Image */
+.title-image {
+	margin-left: 2.5rem;
+	position: absolute;
+	right: 30%;
+	transform: rotate(25deg);
+	width: 60%;
+}
+/* Feature Icons */
+.feature-row {
+	padding: 5%;
+}
+.feature-icon {
+	color: #ef8172;
+	font-size: 4rem;
+	padding-bottom: 1rem;
+	transition: color .2s;
+}
+.feature-icon:hover {
+	color: #ff4c68;
+}
+.feature-title {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.testimonials-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.testimonial-image {
+	border-radius: 100%;
+	margin: 20px;
+	width: 10%;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+.press-logo {
+	margin: 20px 20px 50px;
+	width: 15%;
+}
+.pricing-col {
+	padding: 3% 2%;
+}
+.slogan {
+	color: white;
+	font-size: 4rem;
+	font-weight: 900;
+	line-height: 6rem;
+	padding: 9% 20% 3%;
+}
+.end-button{
+	margin: 1% 2% 9% 0
+}
+.social-media{
+	color: black;
+	font-size: 1.4rem;
+	margin: 5% 0 1.5%;
+	padding: 0 1%;
+}
+.social-media-div{
+	margin: 5% 0 1.5%;
+}
+.copyright{
+	font-weight: 600;
+	margin-bottom: 5%
+}
+#title {
+	background-color: #ff4c68;
+	color: white;
+	text-align: left;
+}
+#features {
+	padding: 6% 15%;
+	position: relative;
+	z-index: 1;
+}
+
+/* Testimonials */
+#testimonials {
+	background-color: #ef8172;
+	color: white;
+}
+/* Press */
+#press {
+	background-color: #ef8172;
+	padding-bottom: 3%;
+}
+/* Pricing */
+#pricing {
+	padding: 100px;
+}
+#pricing h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+#pricing h2 {
+	font-size: 2.5rem;
+	font-weight: 900;
+}
+#cta {
+	background-color: #ff4c68;
+}
+
+/* Media Query Breakpoints */
+@media (max-width: 1028px) {
+	#title {
+		text-align: center
+	}
+	.title-image {
+		margin-left: auto;
+		position: static;
+		transform: rotate(0deg);
+	}
+}
